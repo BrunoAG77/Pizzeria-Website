@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylepedido.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200&display=swap" rel="stylesheet">
+  <title>Bruno Pizza - Pedir</title>
+</head>
+
+<body>
+  <h1>Bruno Pizza</h1>
+  <hr>
+  <h2>Pedido</h2>
+  <hr>
+  <form action="paga.html" method="GET">
+    <div>
+      <h3>
+        <label for="pizza">Pizza: </label>
+        <select id="pizza" name="pizza" required>
+          <option value="pizzatype0"></option>
+          <option value="pizzatype1">Havaiana</option>
+          <option value="pizzatype2">Marguerita</option>
+          <option value="pizzatype3">Mussarela</option>
+          <option value="pizzatype4">Napolitana</option>
+          <option value="pizzatype5">Pepperoni</option>
+          <option value="pizzatype6">Portuguesa</option>
+        </select>
+      </h3>
+    </div>
+    <div>
+      <h3>
+        <label for="length">Tamanho: </label>
+        <select id="length" name="length" required>
+          <option value="len0"></option>
+          <option value="len1">Broto</option>
+          <option value="len2">Média</option>
+          <option value="len3">Grande</option>
+          <option value="len4">Gigante</option>
+        </select>
+      </h3>
+    </div>
+    <div>
+      <h3>
+        <label for="payment">Forma de pagamento: </label>
+        <select id="payment" name="payment">
+          <option value="payform0"></option>
+          <option value="cash">Dinheiro</option>
+          <option value="card1">Cartão de Crédito</option>
+          <option value="card2">Cartão de Débito</option>
+          <option value="pix">Pix</option>
+        </select>
+      </h3>
+    </div>
+    <div>
+      <h3>
+        <label for="check">Aceito receber informações de contato e descontos: </label>
+        <input type="checkbox" id="check" name="check">
+      </h3>
+    </div>
+    <br>
+    <div id="rsa">
+      <input type="Reset" id="resetbtn" class="input">
+    </div>
+    <br>
+    <div id="rsb">
+      <input type="Submit" id="submitbtn" class="input">
+    </div>
+  </form>
+  <br>
+  <hr>
+  <h3><a href="index.html"><button>Voltar</button></a></h3>
+  <script src="scriptpedido.js"></script>
+</body>
+
+</html>

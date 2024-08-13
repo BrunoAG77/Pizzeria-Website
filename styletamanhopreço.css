@@ -1,0 +1,41 @@
+body{
+  background-color: #870a28;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+h1{
+  color: yellow;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+h2{
+  color: yellow;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+h3{
+  color: yellow;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+button{
+  background-color: #00613c;
+  color: yellow;
+  border-radius:100px;
+  width:250px;
+  margin: 5px;
+  padding: 8px;
+  border: 1px solid black;
+  cursor: pointer;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 20px;
+  transition: background-color 0.25s;
+}
+
+button:hover {
+  background-color: #00472c;
+}
+
+button:active {
+  background-color: #00613c;
+}
